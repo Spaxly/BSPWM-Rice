@@ -19,11 +19,13 @@ File Manager: PCManFM
     Shell: Fish
   <br><br>
     Compositor: Picom-Animations-Git
+  <br><br>
+    Widgets: EWW
 
 # Install
 Assuming you have yay as your AUR helper:
 <br>
-<code>yay -S git neovim pcmanfm bspwm sxhkd starship fish nerd-fonts-complete ttf-comic-mono-git sddm rofi polybar</code>
+<code>yay -S git eww neovim pcmanfm bspwm sxhkd starship fish nerd-fonts-complete ttf-comic-mono-git sddm rofi polybar</code>
 <br>
 <br>
 Installing the dotfiles:
@@ -33,3 +35,6 @@ Installing the dotfiles:
 <code>cp -rf config/* ~/.config</code>
 <br>
 <code>cp -rf fonts/* ~/.fonts</code>
+
+# Credits
+Syndrizzle - for Spotify EWW widget
