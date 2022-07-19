@@ -25,6 +25,18 @@ super + shift + f
 
 super + shift + p
   rofi -show p -modi p:rofi-power-menu -theme ~/.config/bspwm/rofi/config.rasi
+
+super + alt + s
+  ~/.config/eww/Player/launch
+
+super + alt + 2
+  killall picom
+
+super + a
+  ~/.config/bspwm/scripts/alacritty_theme.sh
+super + p
+  ~/.config/bspwm/scripts/polybar_theme.sh
+
 #
 # bspwm hotkeys
 #
