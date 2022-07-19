@@ -34,6 +34,7 @@ color11 = #a5adce
 color12 = #b5bfe2
 color15 = #949cbb
     " > $config
+    $HOME/.config/bspwm/polybar/launch.sh &
     ;; 
   'latte')
     echo "
@@ -55,6 +56,7 @@ color11 = #7c7f93
 color12 = #8c8fa1
 color15 = #9ca0b0
     " > $config
+    $HOME/.config/bspwm/polybar/launch.sh &
     ;;
   'macchiato')
     echo "
@@ -76,6 +78,7 @@ color11 = #a5adcb
 color12 = #b8c0e0
 color15 = #b7bdf8
     " > $config
+    $HOME/.config/bspwm/polybar/launch.sh &
     ;;
   'mocha')
     echo "
@@ -97,6 +100,7 @@ color11 = #a6adc8
 color12 = #bac2de
 color15 = #9399b2 
     " > $config
+    $HOME/.config/bspwm/polybar/launch.sh &
     ;;
   'saga')
     echo "
@@ -118,6 +122,7 @@ color11 = #FAEDFF
 color12 = #F5E8FF
 color15 = #FFF2FF
     " > $config
+    $HOME/.config/bspwm/polybar/launch.sh &
     ;;
   'quit')
     echo "No theme chosen" && exit 1 ;;
