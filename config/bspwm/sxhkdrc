@@ -8,7 +8,7 @@ super + shift + Return
 
 # program launcher
 super + d
-	rofi -show drun -theme ~/.config/bspwm/rofi/config.rasi
+  ~/.config/bspwm/rofi/launch.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -36,6 +36,9 @@ super + a
   ~/.config/bspwm/scripts/alacritty_theme.sh
 super + p
   ~/.config/bspwm/scripts/polybar_theme.sh
+
+super + r
+  ~/.config/bspwm/scripts/rofi_theme.sh
 
 #
 # bspwm hotkeys

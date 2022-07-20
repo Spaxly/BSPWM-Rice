@@ -11,7 +11,7 @@ declare -a options=(
 "quit"
 )
 
-choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 6 -p 'Alacritty Themes' -theme ~/.config/bspwm/rofi/config.rasi)
+choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 6 -p 'Alacritty Themes' -theme ~/.config/bspwm/rofi/themes/saga.rasi)
 
 case $choice in
     'frappe')
